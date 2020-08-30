@@ -1,5 +1,7 @@
 package automationpractice.com;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+import io.qameta.allure.Attachment;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
@@ -16,6 +18,8 @@ import com.pageObject.ShoppingActions;
 import com.pageObject.SignInForm;
 import utils.EmailsGenerator;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 public class ShopWorkflowTest {
 
 	private WebDriver driver;
@@ -28,9 +32,12 @@ public class ShopWorkflowTest {
 	private SignInForm signinForm;
 	private Account account;
 
+
 	@BeforeClass
 	public void setup() {
-		System.setProperty("webdriver.chrome.driver", "drivers/chromedriver");
+		System.setProperty("webdriver.chrome.driver", "drivers/chromedriver.exe");
+		//WebDriverManager.chromedriver().setup();
+
 		driver = new ChromeDriver();
 
 		action = new Actions(driver);
@@ -54,6 +61,7 @@ public class ShopWorkflowTest {
 	}
 
 	@Test(priority = 1)
+	//@Attachment
 	public void selectChlotes() {
 		Assert.assertTrue(clothes.getDressesBtn().isDisplayed());
 
@@ -123,6 +131,7 @@ public class ShopWorkflowTest {
 	}
 
 	@Test(priority = 3)
+	//@Attachment
 	public void deleteCartProducts() {
 		Assert.assertEquals(cart.getCartProductsQty().size(), 3);
 
@@ -138,6 +147,7 @@ public class ShopWorkflowTest {
 	}
 
 	@Test(priority = 4)
+	//@Attachment
 	public void checkingCartProductsQtyAndPrice() {
 		Assert.assertEquals(cart.getCartProductsQty().size(), 2);
 
@@ -167,6 +177,7 @@ public class ShopWorkflowTest {
 	}
 
 	@Test(priority = 5)
+	//@Attachment
 	public void continueToShoppingSummary() {
 		action.moveToElement(cart.getCartTab()).perform();
 		action.moveToElement(cart.getCartTabCheckOutBtn()).perform();
@@ -198,6 +209,7 @@ public class ShopWorkflowTest {
 	}
 
 	@Test(priority = 6)
+	//@Attachment
 	public void increaseQtyOfProduct1() {
 		Assert.assertEquals(summary.getCartSummTotalProductsPrice().getText(), "$130.96");
 		Assert.assertEquals(summary.getCartSummaryTotalPrice().getText(), "$132.96");
@@ -212,17 +224,19 @@ public class ShopWorkflowTest {
 	}
 
 	@Test(priority = 7)
+	//@Attachment
 	public void signinRequest() {
 		summary.getCartProceedBtn().click();
 
 		Assert.assertTrue(signinForm.getSignInForm().isDisplayed());
 
 		signinForm.setEmailField(EmailsGenerator.getCurrentEmail());
-		signinForm.setPasswordField("tester123");
+		signinForm.setPasswordField("Welcome@1");
 		signinForm.getSignInBtn().click();
 	}
 
 	@Test(priority = 8)
+	//@Attachment
 	public void billingAndDeliveryAddress() {
 		Assert.assertEquals(summary.getCartSummBillingAdressName().getText(), "John Doe");
 		Assert.assertEquals(summary.getCartSummBillingAdressOne().getText(), "Centar");
@@ -233,6 +247,7 @@ public class ShopWorkflowTest {
 	}
 
 	@Test(priority = 9)
+	//@Attachment
 	public void termsOfServiceModal() {
 		summary.getCartProceedBtnTwo().click();
 		summary.getCartProceedBtnTwo().click();
@@ -251,6 +266,7 @@ public class ShopWorkflowTest {
 	}
 
 	@Test(priority = 10)
+	//@Attachment
 	public void payment() {
 		summary.getCartSummPayByBankWire().click();
 
@@ -263,6 +279,7 @@ public class ShopWorkflowTest {
 	}
 
 	@Test(priority = 11)
+	//@Attachment
 	public void confirmOrder() {
 		summary.getCartSummConfirmOrderBtn().click();
 
@@ -271,6 +288,7 @@ public class ShopWorkflowTest {
 	}
 
 	@Test(priority = 12)
+	//@Attachment
 	public void checkIsOrderVisibleInOrderHistorySection() {
 		account.getAccountBtn().click();
 

@@ -1,0 +1,15 @@
+{
+  "total" : 1,
+  "items" : [ {
+    "uid" : "35da8ec4dda4e29bb8af224a3ab4837e",
+    "name" : "automationpractice.com",
+    "statistic" : {
+      "failed" : 4,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 16,
+      "unknown" : 0,
+      "total" : 22
+    }
+  } ]
+}

@@ -10,7 +10,7 @@ import java.io.UnsupportedEncodingException;
 public class EmailsGenerator {
 	
 	private static final String FILE_PATH = "Email.txt";
-	private static final String MAIL_PATTERN = "mapko@yahoo.com:";
+	private static final String MAIL_PATTERN = "shasha.intell@gmail.com:";
 	
 	public static String getNextEmail() {
 		int index = 0;

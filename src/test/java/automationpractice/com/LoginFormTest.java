@@ -1,5 +1,14 @@
 package automationpractice.com;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+import io.qameta.allure.Description;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
+import io.qameta.allure.Story;
+import io.qameta.allure.Attachment;
+
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
@@ -12,6 +21,9 @@ import com.pageObject.CreateAccountForm;
 import com.pageObject.SignInForm;
 import utils.EmailsGenerator;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+
 public class LoginFormTest {
 
 	private WebDriver driver;
@@ -23,7 +35,9 @@ public class LoginFormTest {
 	public void setup() {
 		String baseUrl = "http://automationpractice.com/index.php?controller=authentication";
 
-		System.setProperty("webdriver.chrome.driver", "drivers/chromedriver");
+		System.setProperty("webdriver.chrome.driver", "drivers/chromedriver.exe");
+		//WebDriverManager.chromedriver().setup();
+
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get(baseUrl);
@@ -41,6 +55,7 @@ public class LoginFormTest {
 	}
 
 	@Test(priority = 1)
+    //@Attachment
 	public void loginPage() {
 		Assert.assertTrue(signin.getSignInForm().isDisplayed());
 		Assert.assertTrue(signin.getSignInEmailField().isDisplayed());
@@ -49,6 +64,7 @@ public class LoginFormTest {
 	}
 
 	@Test(priority = 2)
+	//@Attachment
 	public void invalidCredentials() {
 		// username: email@email.com
 		// password: asddsa
@@ -74,6 +90,7 @@ public class LoginFormTest {
 	}
 
 	@Test(priority = 3)
+	//@Attachment
 	public void loginWithoutCredentials() {
 		signin.setEmailField("");
 		signin.setPasswordField("asddsa");
@@ -95,6 +112,7 @@ public class LoginFormTest {
 	}
 
 	@Test(priority = 4)
+	//@Attachment
 	public void emailFormat() {
 		signin.setEmailField("email");
 		signin.getSignInPasswordField().click();
@@ -113,9 +131,10 @@ public class LoginFormTest {
 	}
 
 	@Test(priority = 5)
+	//@Attachment
 	public void successfulLogin() {
 		signin.setEmailField(EmailsGenerator.getCurrentEmail());
-		signin.setPasswordField("tester123");
+		signin.setPasswordField("Welcome@1");
 		signin.getSignInBtn().click();
 
 		Assert.assertTrue(createAccountForm.successfullyCreatedAccount().isDisplayed());

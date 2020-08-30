@@ -1,5 +1,6 @@
 package automationpractice.com;
 
+import io.qameta.allure.Attachment;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
@@ -13,7 +14,7 @@ import com.pageObject.CreateAccountForm;
 import com.pageObject.Homepage;
 import com.pageObject.SignInForm;
 import utils.EmailsGenerator;
-//mport io.github.bonigarcia.wdm.WebDriverManager;
+import io.github.bonigarcia.wdm.WebDriverManager;
 
 
 
@@ -29,7 +30,7 @@ public class CreateAccountFormTest {
 
 	@BeforeClass
 	public void setup() {
-		System.setProperty("webdriver.chrome.driver", "drivers/chromedriver");
+		System.setProperty("webdriver.chrome.driver", "drivers/chromedriver.exe");
 		//WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
 
@@ -51,6 +52,7 @@ public class CreateAccountFormTest {
 	}
 
 	@Test(priority = 1)
+	//@Attachment
 	public void authenticationPage() {
 		homepage.getSignInBtn().click();
 
@@ -61,6 +63,7 @@ public class CreateAccountFormTest {
 	}
 
 	@Test(priority = 2)
+	//@Attachment
 	public void authenticationPageEmailField() {
 		// Without email
 		createAccount.getCreateAccountBtn().click();
@@ -88,12 +91,13 @@ public class CreateAccountFormTest {
 	}
 
 	@Test(priority = 3)
+	//@Attachment
 	public void personalInfoFields() {
 		// With values
 		createAccountForm.setCustomerFirstNameField("Marko");
 		createAccountForm.setCustomerLastNameField("Stevanovic");
 		createAccountForm.setCustomerEmailField("mapko89ct@gmail.com");
-		createAccountForm.setCustomerPasswordField("tester");
+		createAccountForm.setCustomerPasswordField("Welcome@1");
 
 		createAccountForm.getAccountCreationForm().click();
 
@@ -117,6 +121,7 @@ public class CreateAccountFormTest {
 	}
 
 	@Test(priority = 4)
+	//@Attachment
 	public void requiredFieldsEmpty() {
 		createAccountForm.getAddressAliasField().clear();
 		createAccountForm.setCustomerEmailField("");
@@ -142,6 +147,7 @@ public class CreateAccountFormTest {
 	}
 
 	@Test(priority = 5)
+	//@Attachment
 	public void requiredFieldsInputFormat() throws Exception {
 		// Wrong format
 		createAccountForm.setCustomerEmailField("mapko89ct@gmail");
@@ -173,6 +179,8 @@ public class CreateAccountFormTest {
 	}
 
 	@Test(priority = 6)
+	//@Attachment
+
 	public void createAccountSuccessfully() {
 		// Required fields filled
 		createAccountForm.setCustomerFirstNameField("John");
@@ -193,7 +201,7 @@ public class CreateAccountFormTest {
 		Assert.assertTrue(createAccountForm.getEmailBeenRegistered().isDisplayed());
 
 		createAccountForm.setCustomerEmailField(EmailsGenerator.getNextEmail());
-		createAccountForm.setCustomerPasswordField("tester123");
+		createAccountForm.setCustomerPasswordField("Welcome@1");
 		createAccountForm.getRegisterBtn().click();
 
 		Assert.assertTrue(createAccountForm.successfullyCreatedAccount().isDisplayed());

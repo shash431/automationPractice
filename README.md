@@ -19,3 +19,7 @@ Tested functionalities:
 
 • Complete shopping workflow
 
+
+Generate the Report:  
+allure generate ./allure-results && allure open
+

@@ -1,0 +1,221 @@
+[ {
+  "uid" : "7aa9fd2eeab5accb",
+  "name" : "signinRequest",
+  "time" : {
+    "start" : 1598814673279,
+    "stop" : 1598814685988,
+    "duration" : 12709
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f73f751240589ade",
+  "name" : "emailFormat",
+  "time" : {
+    "start" : 1598814536733,
+    "stop" : 1598814544339,
+    "duration" : 7606
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1071b0e7280a8586",
+  "name" : "personalInfoFields",
+  "time" : {
+    "start" : 1598814330479,
+    "stop" : 1598814346142,
+    "duration" : 15663
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8b8d2bd78ef00071",
+  "name" : "deleteCartProducts",
+  "time" : {
+    "start" : 1598814661782,
+    "stop" : 1598814661848,
+    "duration" : 66
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "c10908a163a13fb8",
+  "name" : "requiredFieldsEmpty",
+  "time" : {
+    "start" : 1598814346152,
+    "stop" : 1598814375884,
+    "duration" : 29732
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4c8cc3fa6e2abf5d",
+  "name" : "continueToShoppingSummary",
+  "time" : {
+    "start" : 1598814661904,
+    "stop" : 1598814670776,
+    "duration" : 8872
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "52db00d585279edf",
+  "name" : "payment",
+  "time" : {
+    "start" : 1598814704800,
+    "stop" : 1598814714802,
+    "duration" : 10002
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8c1252e1819a2a03",
+  "name" : "successfulLogin",
+  "time" : {
+    "start" : 1598814544353,
+    "stop" : 1598814551949,
+    "duration" : 7596
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fbbb1b12dc079fe7",
+  "name" : "increaseQtyOfProduct1",
+  "time" : {
+    "start" : 1598814670794,
+    "stop" : 1598814670908,
+    "duration" : 114
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "7e268b6f887a1ad3",
+  "name" : "selectChlotes",
+  "time" : {
+    "start" : 1598814609549,
+    "stop" : 1598814661733,
+    "duration" : 52184
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "c62c1a98602675dd",
+  "name" : "confirmOrder",
+  "time" : {
+    "start" : 1598814714812,
+    "stop" : 1598814719536,
+    "duration" : 4724
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "eb967d0dd947baf4",
+  "name" : "authenticationPage",
+  "time" : {
+    "start" : 1598815493715,
+    "stop" : 1598815513543,
+    "duration" : 19828
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fe5d4ea039b31678",
+  "name" : "authenticationPageEmailField",
+  "time" : {
+    "start" : 1598815515243,
+    "stop" : 1598815750646,
+    "duration" : 235403
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "c5c0fc9fd0958c0",
+  "name" : "loginPage",
+  "time" : {
+    "start" : 1598814490031,
+    "stop" : 1598814498563,
+    "duration" : 8532
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bac607fedc426acc",
+  "name" : "loginWithoutCredentials",
+  "time" : {
+    "start" : 1598814520877,
+    "stop" : 1598814536724,
+    "duration" : 15847
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f5c018b3bd1d4fe6",
+  "name" : "checkingCartProductsQtyAndPrice",
+  "time" : {
+    "start" : 1598814661857,
+    "stop" : 1598814661895,
+    "duration" : 38
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "435c76707d8fafb5",
+  "name" : "invalidCredentials",
+  "time" : {
+    "start" : 1598814498573,
+    "stop" : 1598814520863,
+    "duration" : 22290
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "631d8eba8ea18b6a",
+  "name" : "createAccountSuccessfully",
+  "time" : {
+    "start" : 1598814397210,
+    "stop" : 1598814439105,
+    "duration" : 41895
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "46b4c60dd6ca26e4",
+  "name" : "billingAndDeliveryAddress",
+  "time" : {
+    "start" : 1598814686001,
+    "stop" : 1598814688045,
+    "duration" : 2044
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ec6c8cc98db1b152",
+  "name" : "termsOfServiceModal",
+  "time" : {
+    "start" : 1598814688058,
+    "stop" : 1598814704791,
+    "duration" : 16733
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f2e45003746661e6",
+  "name" : "checkIsOrderVisibleInOrderHistorySection",
+  "time" : {
+    "start" : 1598814719549,
+    "stop" : 1598814736395,
+    "duration" : 16846
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3efe04f5978a76f1",
+  "name" : "requiredFieldsInputFormat",
+  "time" : {
+    "start" : 1598814375912,
+    "stop" : 1598814397199,
+    "duration" : 21287
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

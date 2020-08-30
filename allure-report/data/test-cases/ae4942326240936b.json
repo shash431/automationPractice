@@ -1,0 +1,92 @@
+{
+  "uid" : "ae4942326240936b",
+  "name" : "authenticationPageEmailField",
+  "fullName" : "automationpractice.com.CreateAccountFormTest.authenticationPageEmailField",
+  "historyId" : "d617a22cf6b975b940e9e093be91ac04",
+  "time" : {
+    "start" : 1598813218811,
+    "stop" : 1598813236863,
+    "duration" : 18052
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1598813151419,
+      "stop" : 1598813211455,
+      "duration" : 60036
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "closeAll",
+    "time" : {
+      "start" : 1598813303802,
+      "stop" : 1598813320658,
+      "duration" : 16856
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "automationpractice.com.CreateAccountFormTest"
+  }, {
+    "name" : "testClass",
+    "value" : "automationpractice.com.CreateAccountFormTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "authenticationPageEmailField"
+  }, {
+    "name" : "parentSuite",
+    "value" : "automationpractice.com"
+  }, {
+    "name" : "suite",
+    "value" : "automationpractice.com"
+  }, {
+    "name" : "subSuite",
+    "value" : "automationpractice.com.CreateAccountFormTest"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-4FA3TIKU"
+  }, {
+    "name" : "thread",
+    "value" : "12276@LAPTOP-4FA3TIKU.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ae4942326240936b.json",
+  "parameterValues" : [ ]
+}

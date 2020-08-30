@@ -1,0 +1,102 @@
+{
+  "uid" : "435c76707d8fafb5",
+  "name" : "invalidCredentials",
+  "fullName" : "automationpractice.com.LoginFormTest.invalidCredentials",
+  "historyId" : "a108121d87c2f5cc0d49aa3874f3b408",
+  "time" : {
+    "start" : 1598814498573,
+    "stop" : 1598814520863,
+    "duration" : 22290
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1598814457000,
+      "stop" : 1598814490022,
+      "duration" : 33022
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "closeAll",
+    "time" : {
+      "start" : 1598814551956,
+      "stop" : 1598814564127,
+      "duration" : 12171
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "automationpractice.com.LoginFormTest"
+  }, {
+    "name" : "testClass",
+    "value" : "automationpractice.com.LoginFormTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "invalidCredentials"
+  }, {
+    "name" : "parentSuite",
+    "value" : "automationpractice.com"
+  }, {
+    "name" : "suite",
+    "value" : "automationpractice.com"
+  }, {
+    "name" : "subSuite",
+    "value" : "automationpractice.com.LoginFormTest"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-4FA3TIKU"
+  }, {
+    "name" : "thread",
+    "value" : "14228@LAPTOP-4FA3TIKU.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "81191e78480c92f0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598813341939,
+        "stop" : 1598813355784,
+        "duration" : 13845
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "435c76707d8fafb5.json",
+  "parameterValues" : [ ]
+}

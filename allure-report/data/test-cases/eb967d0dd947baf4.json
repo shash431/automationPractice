@@ -1,0 +1,78 @@
+{
+  "uid" : "eb967d0dd947baf4",
+  "name" : "authenticationPage",
+  "fullName" : "automationpractice.com.CreateAccountFormTest.authenticationPage",
+  "historyId" : "b684888f60227b3f05d9dfe0341bb9c0",
+  "time" : {
+    "start" : 1598815493715,
+    "stop" : 1598815513543,
+    "duration" : 19828
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "automationpractice.com.CreateAccountFormTest"
+  }, {
+    "name" : "testClass",
+    "value" : "automationpractice.com.CreateAccountFormTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "authenticationPage"
+  }, {
+    "name" : "parentSuite",
+    "value" : "automationpractice.com"
+  }, {
+    "name" : "suite",
+    "value" : "automationpractice.com"
+  }, {
+    "name" : "subSuite",
+    "value" : "automationpractice.com.CreateAccountFormTest"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-4FA3TIKU"
+  }, {
+    "name" : "thread",
+    "value" : "5892@LAPTOP-4FA3TIKU.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "387a624e4f438d03",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598814295243,
+        "stop" : 1598814301511,
+        "duration" : 6268
+      }
+    }, {
+      "uid" : "85596a78c68ac829",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598813212080,
+        "stop" : 1598813217818,
+        "duration" : 5738
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "eb967d0dd947baf4.json",
+  "parameterValues" : [ ]
+}
