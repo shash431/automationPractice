@@ -1,0 +1,94 @@
+{
+  "uid" : "4d5b4477536e5b56",
+  "name" : "loginPage",
+  "fullName" : "automationpractice.com.LoginFormTest.loginPage",
+  "historyId" : "f3a5297fb61fec83c526155bbaf32480",
+  "time" : {
+    "start" : 1598860868163,
+    "stop" : 1598860868313,
+    "duration" : 150
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1598860863766,
+      "stop" : 1598860868155,
+      "duration" : 4389
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "closeAll",
+    "time" : {
+      "start" : 1598860878382,
+      "stop" : 1598860880734,
+      "duration" : 2352
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "automationpractice.com.LoginFormTest"
+  }, {
+    "name" : "testClass",
+    "value" : "automationpractice.com.LoginFormTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "loginPage"
+  }, {
+    "name" : "parentSuite",
+    "value" : "automationpractice.com"
+  }, {
+    "name" : "suite",
+    "value" : "automationpractice.com"
+  }, {
+    "name" : "subSuite",
+    "value" : "automationpractice.com.LoginFormTest"
+  }, {
+    "name" : "host",
+    "value" : "PCWDF507.local"
+  }, {
+    "name" : "thread",
+    "value" : "73184@PCWDF507.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4d5b4477536e5b56.json",
+  "parameterValues" : [ ]
+}

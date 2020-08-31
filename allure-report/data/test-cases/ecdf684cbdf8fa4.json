@@ -1,0 +1,94 @@
+{
+  "uid" : "ecdf684cbdf8fa4",
+  "name" : "confirmOrder",
+  "fullName" : "automationpractice.com.ShopWorkflowTest.confirmOrder",
+  "historyId" : "5af3d2bb80d08b2d174699726e541e5a",
+  "time" : {
+    "start" : 1598860922858,
+    "stop" : 1598860925350,
+    "duration" : 2492
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1598860880734,
+      "stop" : 1598860886257,
+      "duration" : 5523
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "closeAll",
+    "time" : {
+      "start" : 1598860931148,
+      "stop" : 1598860934265,
+      "duration" : 3117
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "automationpractice.com.ShopWorkflowTest"
+  }, {
+    "name" : "testClass",
+    "value" : "automationpractice.com.ShopWorkflowTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "confirmOrder"
+  }, {
+    "name" : "parentSuite",
+    "value" : "automationpractice.com"
+  }, {
+    "name" : "suite",
+    "value" : "automationpractice.com"
+  }, {
+    "name" : "subSuite",
+    "value" : "automationpractice.com.ShopWorkflowTest"
+  }, {
+    "name" : "host",
+    "value" : "PCWDF507.local"
+  }, {
+    "name" : "thread",
+    "value" : "73184@PCWDF507.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ecdf684cbdf8fa4.json",
+  "parameterValues" : [ ]
+}
