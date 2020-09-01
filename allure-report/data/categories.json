@@ -1,5 +1,99 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Expected condition failed: waiting for presence of element located by: By.id: login_form (tried for 30 second(s) with 500 MILLISECONDS interval)\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'PCWDF507.local', ip: '192.168.0.6', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '11.0.6'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=MAC, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:54510}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}), userDataDir=/var/folders/vz/zfc8kvxx0xz19z9txc8ffwvjgzxsj2/T/.com.google.Chrome.kO2Sww}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=84.0.4147.105, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]\nSession ID: 7ae3526e2600daea813a8c28cd565394",
+      "children" : [ {
+        "name" : "loginPage",
+        "uid" : "d2d0d5c65fef6e3f",
+        "parentUid" : "dab0cf8a7723db4bae7b6367b8a7dc43",
+        "status" : "broken",
+        "time" : {
+          "start" : 1598951545423,
+          "stop" : 1598951582693,
+          "duration" : 37270
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "dab0cf8a7723db4bae7b6367b8a7dc43"
+    }, {
+      "name" : "Expected condition failed: waiting for presence of element located by: By.id: email (tried for 30 second(s) with 500 MILLISECONDS interval)\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'PCWDF507.local', ip: '192.168.0.6', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '11.0.6'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=MAC, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:54510}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}), userDataDir=/var/folders/vz/zfc8kvxx0xz19z9txc8ffwvjgzxsj2/T/.com.google.Chrome.kO2Sww}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=84.0.4147.105, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]\nSession ID: 7ae3526e2600daea813a8c28cd565394",
+      "children" : [ {
+        "name" : "invalidCredentials",
+        "uid" : "c91d0370fb6b3427",
+        "parentUid" : "20e9e73dcd19b98ce0da015d24f47e6b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1598951625875,
+          "stop" : 1598951663022,
+          "duration" : 37147
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "loginWithoutCredentials",
+        "uid" : "39a73bcca295891d",
+        "parentUid" : "20e9e73dcd19b98ce0da015d24f47e6b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1598951698338,
+          "stop" : 1598951735356,
+          "duration" : 37018
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "emailFormat",
+        "uid" : "ec1fd87e664a304",
+        "parentUid" : "20e9e73dcd19b98ce0da015d24f47e6b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1598951776377,
+          "stop" : 1598951816839,
+          "duration" : 40462
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "successfulLogin",
+        "uid" : "5be38cead8389a1d",
+        "parentUid" : "20e9e73dcd19b98ce0da015d24f47e6b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1598951858136,
+          "stop" : 1598951897232,
+          "duration" : 39096
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "20e9e73dcd19b98ce0da015d24f47e6b"
+    }, {
+      "name" : "Expected condition failed: waiting for element to be clickable: By.xpath: //a[@title=\"Log me out\"] (tried for 30 second(s) with 500 MILLISECONDS interval)\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'PCWDF507.local', ip: '192.168.0.6', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '11.0.6'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=MAC, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:54510}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}), userDataDir=/var/folders/vz/zfc8kvxx0xz19z9txc8ffwvjgzxsj2/T/.com.google.Chrome.kO2Sww}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=84.0.4147.105, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]\nSession ID: 7ae3526e2600daea813a8c28cd565394",
+      "children" : [ {
+        "name" : "closeAll",
+        "uid" : "2bf09db0962e0409",
+        "parentUid" : "207b78937cf6af13fbd51294932ee8d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1598951937872,
+          "stop" : 1598951937872,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "207b78937cf6af13fbd51294932ee8d8"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
 }

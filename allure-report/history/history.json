@@ -1,5 +1,5 @@
 {
-  "f3a5297fb61fec83c526155bbaf32480" : {
+  "9b36d4bc3cfa237731e6350d25008dc" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -9,35 +9,36 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "4d5b4477536e5b56",
+      "uid" : "e93c13a54e7c26ba",
       "status" : "passed",
       "time" : {
-        "start" : 1598860868163,
-        "stop" : 1598860868313,
-        "duration" : 150
+        "start" : 1598951468410,
+        "stop" : 1598951470618,
+        "duration" : 2208
       }
     } ]
   },
-  "78443caa78da827ba0100f13bdc892e0" : {
+  "bfeaf9b58d02269172377435fa4c89d8" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a39219834e23a3db",
-      "status" : "passed",
+      "uid" : "5be38cead8389a1d",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for presence of element located by: By.id: email (tried for 30 second(s) with 500 MILLISECONDS interval)\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'PCWDF507.local', ip: '192.168.0.6', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '11.0.6'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=MAC, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:54510}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}), userDataDir=/var/folders/vz/zfc8kvxx0xz19z9txc8ffwvjgzxsj2/T/.com.google.Chrome.kO2Sww}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=84.0.4147.105, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]\nSession ID: 7ae3526e2600daea813a8c28cd565394",
       "time" : {
-        "start" : 1598860913186,
-        "stop" : 1598860918931,
-        "duration" : 5745
+        "start" : 1598951858136,
+        "stop" : 1598951897232,
+        "duration" : 39096
       }
     } ]
   },
-  "c408f0a89989c7c08fcbf203f4f9f79d" : {
+  "19e2c08d71b01ed38c8cbec02fb99525" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -47,16 +48,16 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "bd5da0392e89a0a6",
+      "uid" : "7f3134dda757c85b",
       "status" : "passed",
       "time" : {
-        "start" : 1598860851456,
-        "stop" : 1598860855094,
-        "duration" : 3638
+        "start" : 1598951980601,
+        "stop" : 1598951980975,
+        "duration" : 374
       }
     } ]
   },
-  "688b7ab30784398f766edbd80ee01555" : {
+  "ab574928ebd7c1588fa4c3b8d8afda72" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -66,35 +67,36 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "7c2dbbd2e9b6cc36",
+      "uid" : "ab570860768df8c3",
       "status" : "passed",
       "time" : {
-        "start" : 1598860925353,
-        "stop" : 1598860931147,
-        "duration" : 5794
+        "start" : 1598951962139,
+        "stop" : 1598951966741,
+        "duration" : 4602
       }
     } ]
   },
-  "38d8a239defecaad191d64f103db898e" : {
+  "86fbcbfe9bab471e1826bc0bb20f4291" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "1ad99218be34a41f",
-      "status" : "passed",
+      "uid" : "c91d0370fb6b3427",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for presence of element located by: By.id: email (tried for 30 second(s) with 500 MILLISECONDS interval)\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'PCWDF507.local', ip: '192.168.0.6', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '11.0.6'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=MAC, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:54510}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}), userDataDir=/var/folders/vz/zfc8kvxx0xz19z9txc8ffwvjgzxsj2/T/.com.google.Chrome.kO2Sww}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=84.0.4147.105, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]\nSession ID: 7ae3526e2600daea813a8c28cd565394",
       "time" : {
-        "start" : 1598860918936,
-        "stop" : 1598860922854,
-        "duration" : 3918
+        "start" : 1598951625875,
+        "stop" : 1598951663022,
+        "duration" : 37147
       }
     } ]
   },
-  "1843aa5e3fbd8d45577881416cd9aa0a" : {
+  "ce82687c49ea8a42a6f4922c793f4ee5" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -104,16 +106,16 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f2cabb1be4cc7a6a",
+      "uid" : "eb4685ae856f2a17",
       "status" : "passed",
       "time" : {
-        "start" : 1598860912854,
-        "stop" : 1598860913183,
-        "duration" : 329
+        "start" : 1598951995306,
+        "stop" : 1598951999990,
+        "duration" : 4684
       }
     } ]
   },
-  "61f4d3682e909921466fb271916f192e" : {
+  "d6e60c1d04282f57f24d9e34b7791f20" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -123,16 +125,16 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "2b56739e2a6cb00d",
+      "uid" : "cd49d614111cdb4d",
       "status" : "passed",
       "time" : {
-        "start" : 1598860848844,
-        "stop" : 1598860851451,
-        "duration" : 2607
+        "start" : 1598951975334,
+        "stop" : 1598951980593,
+        "duration" : 5259
       }
     } ]
   },
-  "5af3d2bb80d08b2d174699726e541e5a" : {
+  "7f198ec26c84ca30c8d88bb2f3662c3b" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -142,16 +144,16 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "ecdf684cbdf8fa4",
+      "uid" : "385ba89a75fe1c42",
       "status" : "passed",
       "time" : {
-        "start" : 1598860922858,
-        "stop" : 1598860925350,
-        "duration" : 2492
+        "start" : 1598951481951,
+        "stop" : 1598951487156,
+        "duration" : 5205
       }
     } ]
   },
-  "b9249b1db304aa0b7e144929506d063" : {
+  "ee61c7d7f467ba0d662527063256604b" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -161,35 +163,36 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a936a156cc08b4f6",
+      "uid" : "490a476669011c60",
       "status" : "passed",
       "time" : {
-        "start" : 1598860900289,
-        "stop" : 1598860902519,
-        "duration" : 2230
+        "start" : 1598951492989,
+        "stop" : 1598951501332,
+        "duration" : 8343
       }
     } ]
   },
-  "a108121d87c2f5cc0d49aa3874f3b408" : {
+  "999b50d1690043c67e6fb12dcf3395ef" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "75efb7164f05c0ca",
-      "status" : "passed",
+      "uid" : "2bf09db0962e0409",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: By.xpath: //a[@title=\"Log me out\"] (tried for 30 second(s) with 500 MILLISECONDS interval)\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'PCWDF507.local', ip: '192.168.0.6', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '11.0.6'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=MAC, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:54510}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}), userDataDir=/var/folders/vz/zfc8kvxx0xz19z9txc8ffwvjgzxsj2/T/.com.google.Chrome.kO2Sww}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=84.0.4147.105, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]\nSession ID: 7ae3526e2600daea813a8c28cd565394",
       "time" : {
-        "start" : 1598860868319,
-        "stop" : 1598860872548,
-        "duration" : 4229
+        "start" : 1598951937872,
+        "stop" : 1598951937872,
+        "duration" : 0
       }
     } ]
   },
-  "6ede387bc00aea4a70ac01198553e9bd" : {
+  "e027262bf70960f45fd706d73a63d5d7" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -199,16 +202,16 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "91c3dedfd0baa568",
+      "uid" : "7bb70df5aa58b1bc",
       "status" : "passed",
       "time" : {
-        "start" : 1598860876627,
-        "stop" : 1598860878380,
-        "duration" : 1753
+        "start" : 1598951944567,
+        "stop" : 1598951962133,
+        "duration" : 17566
       }
     } ]
   },
-  "1be129e5a473cf4ae50107df6a80eb56" : {
+  "2fac0deac476d2c38166cea0f9c59cf5" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -218,16 +221,16 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "1882e48fcc5653a1",
+      "uid" : "b5bc0445cfa606fa",
       "status" : "passed",
       "time" : {
-        "start" : 1598860902521,
-        "stop" : 1598860904803,
-        "duration" : 2282
+        "start" : 1598951487167,
+        "stop" : 1598951492981,
+        "duration" : 5814
       }
     } ]
   },
-  "b036008ea0728fd63511401c739ddcfa" : {
+  "428f10ee34413a12c4e8afcca3b5919e" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -237,16 +240,16 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "97bf004ef7ee7613",
+      "uid" : "b0f88632a216700d",
       "status" : "passed",
       "time" : {
-        "start" : 1598860886261,
-        "stop" : 1598860897843,
-        "duration" : 11582
+        "start" : 1598951973375,
+        "stop" : 1598951975330,
+        "duration" : 1955
       }
     } ]
   },
-  "b684888f60227b3f05d9dfe0341bb9c0" : {
+  "d75987102d8dbc77bf222ef04f6fd4f9" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -256,16 +259,16 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "3103fedc7a932727",
+      "uid" : "782098387214b6c7",
       "status" : "passed",
       "time" : {
-        "start" : 1598860838713,
-        "stop" : 1598860842651,
-        "duration" : 3938
+        "start" : 1598951471041,
+        "stop" : 1598951478473,
+        "duration" : 7432
       }
     } ]
   },
-  "48e4da3a6a5c23d45d18088fd9da813e" : {
+  "aa168dba77e393fbcf5968c8ffa0bf39" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -275,16 +278,16 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "53a5e04bd8f8af7a",
+      "uid" : "46c550f237564790",
       "status" : "passed",
       "time" : {
-        "start" : 1598860897851,
-        "stop" : 1598860900286,
-        "duration" : 2435
+        "start" : 1598951991555,
+        "stop" : 1598951995302,
+        "duration" : 3747
       }
     } ]
   },
-  "657b6ca849db85f8b087aacb35f196a0" : {
+  "b0c62feb7ad1b65a1e6111ea5be06551" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -294,16 +297,16 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "4735f72133b5da8a",
+      "uid" : "e67159f009e89a6b",
       "status" : "passed",
       "time" : {
-        "start" : 1598860872552,
-        "stop" : 1598860876100,
-        "duration" : 3548
+        "start" : 1598951966746,
+        "stop" : 1598951970512,
+        "duration" : 3766
       }
     } ]
   },
-  "d1d5b5315b8a221afc156539932e86c9" : {
+  "452753bc702d8611795a3a55ab401e9b" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -313,16 +316,16 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "756dcb20c9665db4",
+      "uid" : "1dc1101a183683ef",
       "status" : "passed",
       "time" : {
-        "start" : 1598860855097,
-        "stop" : 1598860857815,
-        "duration" : 2718
+        "start" : 1598951980977,
+        "stop" : 1598951987240,
+        "duration" : 6263
       }
     } ]
   },
-  "37a390e696bec18280942f5d3fd84de8" : {
+  "9a8711c8f8ed00e4f14faa907c181796" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -332,35 +335,36 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "16be1b7e8b96fe9a",
+      "uid" : "cc97e1ef59ecaf25",
       "status" : "passed",
       "time" : {
-        "start" : 1598860857818,
-        "stop" : 1598860862003,
-        "duration" : 4185
+        "start" : 1598951987250,
+        "stop" : 1598951991552,
+        "duration" : 4302
       }
     } ]
   },
-  "d617a22cf6b975b940e9e093be91ac04" : {
+  "e450082ce81f4c81c297a943c675333d" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "cb54eb56fc4d7e76",
-      "status" : "passed",
+      "uid" : "39a73bcca295891d",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for presence of element located by: By.id: email (tried for 30 second(s) with 500 MILLISECONDS interval)\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'PCWDF507.local', ip: '192.168.0.6', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '11.0.6'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=MAC, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:54510}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}), userDataDir=/var/folders/vz/zfc8kvxx0xz19z9txc8ffwvjgzxsj2/T/.com.google.Chrome.kO2Sww}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=84.0.4147.105, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]\nSession ID: 7ae3526e2600daea813a8c28cd565394",
       "time" : {
-        "start" : 1598860842755,
-        "stop" : 1598860848800,
-        "duration" : 6045
+        "start" : 1598951698338,
+        "stop" : 1598951735356,
+        "duration" : 37018
       }
     } ]
   },
-  "25356a058b94a85fc694aac7a4ba6008" : {
+  "640d0b402a2c40ce039142c98f3873f7" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -370,35 +374,56 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "45bc446371929275",
+      "uid" : "4db8f584438ab9c0",
       "status" : "passed",
       "time" : {
-        "start" : 1598860907352,
-        "stop" : 1598860912847,
-        "duration" : 5495
+        "start" : 1598951478541,
+        "stop" : 1598951481942,
+        "duration" : 3401
       }
     } ]
   },
-  "30e71814801ef5971938965d3cf94b90" : {
+  "4036e0760825dfda739d5db1ad9d939" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "14b0926dd0d50713",
-      "status" : "passed",
+      "uid" : "d2d0d5c65fef6e3f",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for presence of element located by: By.id: login_form (tried for 30 second(s) with 500 MILLISECONDS interval)\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'PCWDF507.local', ip: '192.168.0.6', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '11.0.6'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=MAC, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:54510}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}), userDataDir=/var/folders/vz/zfc8kvxx0xz19z9txc8ffwvjgzxsj2/T/.com.google.Chrome.kO2Sww}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=84.0.4147.105, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]\nSession ID: 7ae3526e2600daea813a8c28cd565394",
       "time" : {
-        "start" : 1598860904807,
-        "stop" : 1598860907199,
-        "duration" : 2392
+        "start" : 1598951545423,
+        "stop" : 1598951582693,
+        "duration" : 37270
       }
     } ]
   },
-  "afcdd56146c7a7cd0cb77b669f8a63aa" : {
+  "27292cbbe32f52eae2060f4dd45c11f7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ec1fd87e664a304",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for presence of element located by: By.id: email (tried for 30 second(s) with 500 MILLISECONDS interval)\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'PCWDF507.local', ip: '192.168.0.6', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '11.0.6'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=MAC, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:54510}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}), userDataDir=/var/folders/vz/zfc8kvxx0xz19z9txc8ffwvjgzxsj2/T/.com.google.Chrome.kO2Sww}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=84.0.4147.105, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]\nSession ID: 7ae3526e2600daea813a8c28cd565394",
+      "time" : {
+        "start" : 1598951776377,
+        "stop" : 1598951816839,
+        "duration" : 40462
+      }
+    } ]
+  },
+  "6383042a142c839a7bcef5743b11b5e5" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -408,12 +433,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f93b145c231842dc",
+      "uid" : "c46895c250fd3ba1",
       "status" : "passed",
       "time" : {
-        "start" : 1598860876104,
-        "stop" : 1598860876625,
-        "duration" : 521
+        "start" : 1598951970518,
+        "stop" : 1598951973371,
+        "duration" : 2853
       }
     } ]
   }

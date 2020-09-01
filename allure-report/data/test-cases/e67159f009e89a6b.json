@@ -1,0 +1,97 @@
+{
+  "uid" : "e67159f009e89a6b",
+  "name" : "checkingCartProductsQtyAndPrice",
+  "fullName" : "com.automationpractice.ShopWorkflowTest.checkingCartProductsQtyAndPrice",
+  "historyId" : "b0c62feb7ad1b65a1e6111ea5be06551",
+  "time" : {
+    "start" : 1598951966746,
+    "stop" : 1598951970512,
+    "duration" : 3766
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1598951937878,
+      "stop" : 1598951944563,
+      "duration" : 6685
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "closeAll",
+    "time" : {
+      "start" : 1598951999991,
+      "stop" : 1598952001910,
+      "duration" : 1919
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.automationpractice.ShopWorkflowTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.automationpractice.ShopWorkflowTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkingCartProductsQtyAndPrice"
+  }, {
+    "name" : "parentSuite",
+    "value" : "com.automationpractice"
+  }, {
+    "name" : "suite",
+    "value" : "com.automationpractice"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.automationpractice.ShopWorkflowTest"
+  }, {
+    "name" : "host",
+    "value" : "PCWDF507.local"
+  }, {
+    "name" : "thread",
+    "value" : "90344@PCWDF507.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "Verify Shop workflow Tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e67159f009e89a6b.json",
+  "parameterValues" : [ ]
+}

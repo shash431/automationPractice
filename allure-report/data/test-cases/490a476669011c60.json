@@ -1,0 +1,105 @@
+{
+  "uid" : "490a476669011c60",
+  "name" : "createAccountSuccessfully",
+  "fullName" : "com.automationpractice.CreateAccountFormTest.createAccountSuccessfully",
+  "historyId" : "ee61c7d7f467ba0d662527063256604b",
+  "time" : {
+    "start" : 1598951492989,
+    "stop" : 1598951501332,
+    "duration" : 8343
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1598951457259,
+      "stop" : 1598951467835,
+      "duration" : 10576
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "closeAll",
+    "time" : {
+      "start" : 1598951501337,
+      "stop" : 1598951504648,
+      "duration" : 3311
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.automationpractice.CreateAccountFormTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.automationpractice.CreateAccountFormTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "createAccountSuccessfully"
+  }, {
+    "name" : "parentSuite",
+    "value" : "com.automationpractice"
+  }, {
+    "name" : "suite",
+    "value" : "com.automationpractice"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.automationpractice.CreateAccountFormTest"
+  }, {
+    "name" : "host",
+    "value" : "PCWDF507.local"
+  }, {
+    "name" : "thread",
+    "value" : "90344@PCWDF507.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "Verify Create Account form Tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "1589ac5d21b28414",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598950820558,
+        "stop" : 1598950824980,
+        "duration" : 4422
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "490a476669011c60.json",
+  "parameterValues" : [ ]
+}

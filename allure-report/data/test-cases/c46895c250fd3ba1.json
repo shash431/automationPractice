@@ -1,0 +1,97 @@
+{
+  "uid" : "c46895c250fd3ba1",
+  "name" : "continueToShoppingSummary",
+  "fullName" : "com.automationpractice.ShopWorkflowTest.continueToShoppingSummary",
+  "historyId" : "6383042a142c839a7bcef5743b11b5e5",
+  "time" : {
+    "start" : 1598951970518,
+    "stop" : 1598951973371,
+    "duration" : 2853
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1598951937878,
+      "stop" : 1598951944563,
+      "duration" : 6685
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "closeAll",
+    "time" : {
+      "start" : 1598951999991,
+      "stop" : 1598952001910,
+      "duration" : 1919
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.automationpractice.ShopWorkflowTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.automationpractice.ShopWorkflowTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "continueToShoppingSummary"
+  }, {
+    "name" : "parentSuite",
+    "value" : "com.automationpractice"
+  }, {
+    "name" : "suite",
+    "value" : "com.automationpractice"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.automationpractice.ShopWorkflowTest"
+  }, {
+    "name" : "host",
+    "value" : "PCWDF507.local"
+  }, {
+    "name" : "thread",
+    "value" : "90344@PCWDF507.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "Verify Shop workflow Tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c46895c250fd3ba1.json",
+  "parameterValues" : [ ]
+}

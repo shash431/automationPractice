@@ -1,0 +1,92 @@
+{
+  "uid" : "6fb86988e86d79ea",
+  "name" : "requiredFieldsEmpty",
+  "fullName" : "com.automationpractice.CreateAccountFormTest.requiredFieldsEmpty",
+  "historyId" : "7f198ec26c84ca30c8d88bb2f3662c3b",
+  "time" : {
+    "start" : 1598950815625,
+    "stop" : 1598950818451,
+    "duration" : 2826
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1598950800846,
+      "stop" : 1598950807308,
+      "duration" : 6462
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "closeAll",
+    "time" : {
+      "start" : 1598950824982,
+      "stop" : 1598950827070,
+      "duration" : 2088
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.automationpractice.CreateAccountFormTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.automationpractice.CreateAccountFormTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "requiredFieldsEmpty"
+  }, {
+    "name" : "parentSuite",
+    "value" : "com.automationpractice"
+  }, {
+    "name" : "suite",
+    "value" : "com.automationpractice"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.automationpractice.CreateAccountFormTest"
+  }, {
+    "name" : "host",
+    "value" : "PCWDF507.local"
+  }, {
+    "name" : "thread",
+    "value" : "89328@PCWDF507.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6fb86988e86d79ea.json",
+  "parameterValues" : [ ]
+}

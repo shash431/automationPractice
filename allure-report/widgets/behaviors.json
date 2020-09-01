@@ -1,4 +1,37 @@
 {
-  "total" : 22,
-  "items" : [ ]
+  "total" : 3,
+  "items" : [ {
+    "uid" : "559997b84884083535eff6cc79314c9c",
+    "name" : "Verify Login form Tests",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 6,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 6
+    }
+  }, {
+    "uid" : "93af2811c5c3a65955e88880477f66df",
+    "name" : "Verify Shop workflow Tests",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 11,
+      "unknown" : 0,
+      "total" : 11
+    }
+  }, {
+    "uid" : "287487c939a01cdcc3cbe51acbf6794a",
+    "name" : "Verify Create Account form Tests",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 6,
+      "unknown" : 0,
+      "total" : 6
+    }
+  } ]
 }

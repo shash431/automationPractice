@@ -21,5 +21,5 @@ Tested functionalities:
 
 
 Generate the Report:  
-allure generate ./allure-results && allure open
+allure generate --clean /Users/laddu/IdeaProjects/automationPractice/allure-results && allure open
 
